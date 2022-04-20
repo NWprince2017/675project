@@ -28,17 +28,17 @@ To train GCN3D, please **add/remove/edit** hyper parameters in `train.sh` (e.g. 
 ```
 bash train.sh
 ```
+The training results are saved in `record_gcn3d/pointnet/dgcnn/basecnn.log`
 
 ## Testing
 After training, please **add/remove/edit** hyper parameters in `test.sh`, and run the evaluation:
 ```
 bash test.sh
 ```
-which would show:
-```
-Test Loss: *****
-Test Acc:  *****
-```
+The testing results are saved in `shift/scale/rotate.log`
+
+## Our BaseCNN Model
+We implemented a CNN model named BaseCNN as a machine learning approach to 
 
 ## Notifications
 * Experiments on other model ([PointNet](https://arxiv.org/abs/1612.00593)/[DGCNN](https://arxiv.org/abs/1801.07829)) can be run by edit `-model` argument, note that for such model, `-normal` should be added.
