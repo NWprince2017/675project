@@ -295,8 +295,8 @@ class snds():
             # train_table_str = train_iou_table.get_string()
             # print(train_table_str)
 
-c=snds(root="../../shapenetcore_partanno_segmentation_benchmark_v0")
-c.train()
+# c=snds(root="shapenetcore_partanno_segmentation_benchmark_v0")
+# c.train()
 
 # modeldict={}
 # train_data = snds(root="../../shapenetcore_partanno_segmentation_benchmark_v0", split= 'train')
